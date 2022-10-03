@@ -1,3 +1,3 @@
-indoor=input("say something \n")
-indoor=indoor.lower()
+indoor = input("say something \n")
+indoor = indoor.lower()
 print(indoor)

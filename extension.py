@@ -1,4 +1,4 @@
-file=(input("enter file name? ")).lower()
+file = (input("enter file name? ")).lower()
 print(file)
 if ".gif" in file:
     print("images/gif")
@@ -16,7 +16,3 @@ elif ".zip" in file:
     print("application/zip")
 else:
     print("application/octet-stream")
-    
-        
-
-    
